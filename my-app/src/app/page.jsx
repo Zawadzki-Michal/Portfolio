@@ -18,7 +18,7 @@ export default function Home() {
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-6xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <div className={whisper.className}>
-              Hi, I'm <span className="text-yellow-400"> Michal</span>
+              Hi, I am <span className="text-yellow-400"> Michal</span>
             </div>
           </h1>
           <div className="text-white text-xl lg:text-3xl mb-5">
