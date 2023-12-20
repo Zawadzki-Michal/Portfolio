@@ -3,7 +3,6 @@ import { Whisper } from "next/font/google";
 import React from "react";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
-import Header from "./components/Header";
 
 const whisper = Whisper({
   weight: ["400"],
@@ -13,7 +12,6 @@ const whisper = Whisper({
 export default function Home() {
   return (
     <main>
-      <Header />
       <div className="grid grid-cols-1 pt-10 mt-10 lg:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-6xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
