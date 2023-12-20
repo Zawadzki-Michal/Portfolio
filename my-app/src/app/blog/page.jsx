@@ -1,10 +1,8 @@
-import Header from "../components/Header";
 import Image from "next/image";
 
 export default function Blog() {
   return (
     <main>
-      <Header />
       <div className="hero place-items:top min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <Image
