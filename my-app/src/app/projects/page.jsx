@@ -8,7 +8,7 @@ export default function Projects() {
           My Projects
         </h1>
         <p className="mb-20 text-white mt-5 text-lg">
-          Explore the diverse range of web development projects I've worked on.
+          Explore the diverse range of web development projects I ve worked on.
         </p>
 
         <div className="lg:flex lg:align-middle lg:justify-between lg:flex-row flex-col mx-1 lg:gap-24">
