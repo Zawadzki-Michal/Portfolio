@@ -35,7 +35,7 @@ export default function Projects() {
           <div className="lg:grid lg:col-span-3 card w-96 bg-[#12171c] shadow-xl mb-10 ">
             <figure>
               <Image
-                src="/images/Build2.png"
+                src="/images/build2.png"
                 alt="Shoes"
                 width={500}
                 height={500}
