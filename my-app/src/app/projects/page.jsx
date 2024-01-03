@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Projects() {
   return (
@@ -25,9 +26,11 @@ export default function Projects() {
               <h2 className="card-title">Your Beauty</h2>
               <p>Project for Beauty Business based in Derby</p>
               <div className="card-actions justify-end">
-                <button className="bg-[#13131314] hover:bg-[#13131314] text-yellow-400 font-bold py-2 px-4 rounded-full mr-4 border-2 border-yellow-400 hover:border-[rgba(231,231,45,0.91)] hover:text-[rgba(231,231,45,0.91)] transition duration-300 ease-in-out">
-                  Details
-                </button>
+                <Link href="/projects/yourBeauty">
+                  <button className="bg-[#13131314] hover:bg-[#13131314] text-yellow-400 font-bold py-2 px-4 rounded-full mr-4 border-2 border-yellow-400 hover:border-[rgba(231,231,45,0.91)] hover:text-[rgba(231,231,45,0.91)] transition duration-300 ease-in-out">
+                    Details
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -48,9 +51,12 @@ export default function Projects() {
                 Website for Hub connecting junior developers and Non Profits
               </p>
               <div className="card-actions justify-end">
-                <button className="bg-[#13131314] hover:bg-[#13131314] text-yellow-400 font-bold py-2 px-4 rounded-full mr-4 border-2 border-yellow-400 hover:border-[rgba(231,231,45,0.91)] hover:text-[rgba(231,231,45,0.91)] transition duration-300 ease-in-out">
-                  Details
-                </button>
+                <Link href="/projects/build">
+                  {" "}
+                  <button className="bg-[#13131314] hover:bg-[#13131314] text-yellow-400 font-bold py-2 px-4 rounded-full mr-4 border-2 border-yellow-400 hover:border-[rgba(231,231,45,0.91)] hover:text-[rgba(231,231,45,0.91)] transition duration-300 ease-in-out">
+                    Details
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -69,9 +75,11 @@ export default function Projects() {
               <h2 className="card-title">Socks!</h2>
               <p>School of Code Stash - All links from Bootcamp saved</p>
               <div className="card-actions justify-end">
-                <button className="bg-[#13131314] hover:bg-[#13131314] text-yellow-400 font-bold py-2 px-4 rounded-full mr-4 border-2 border-yellow-400 hover:border-[rgba(231,231,45,0.91)] hover:text-[rgba(231,231,45,0.91)] transition duration-300 ease-in-out">
-                  Details
-                </button>
+                <Link href="/projects/socks">
+                  <button className="bg-[#13131314] hover:bg-[#13131314] text-yellow-400 font-bold py-2 px-4 rounded-full mr-4 border-2 border-yellow-400 hover:border-[rgba(231,231,45,0.91)] hover:text-[rgba(231,231,45,0.91)] transition duration-300 ease-in-out">
+                    Details
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

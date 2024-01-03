@@ -82,7 +82,10 @@ function NavBar() {
                   </Link>
                 </li>
                 <li className="pb-6 text-2xl text-white py-6 px-6 text-center border-b-2 md:border-b-0 hover:text-yellow-400 md:hover:text-yellow-400">
-                  <Link href="./blog" onClick={() => setNavbar(!navbar)}>
+                  <Link
+                    href="https://coding-crossroads.vercel.app/"
+                    onClick={() => setNavbar(!navbar)}
+                  >
                     Blog
                   </Link>
                 </li>
